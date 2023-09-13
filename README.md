@@ -6,7 +6,7 @@ ________________
 ## Как установить
 Скачайте или клонируйте проект, создайте файл ".env" с таким содержимым:
 ````
-TOKEN = Здесь ваш GENERIC ACCESS TOKEN
+TOKEN=Здесь ваш GENERIC ACCESS TOKEN
 ````
 ## Как получить GENERIC ACCESS TOKEN
 
