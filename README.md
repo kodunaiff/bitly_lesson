@@ -8,7 +8,7 @@ ________________
 ````
 TOKEN=Здесь ваш GENERIC ACCESS TOKEN
 ````
-## Как получить GENERIC ACCESS TOKEN
+## Как запустить
 
 * Вам необходимо перейти на сайт https://bitly.com
 * Создайте себе аккаунт https://bitly.com/a/sign_up.
