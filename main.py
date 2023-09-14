@@ -51,15 +51,14 @@ def main():
     token = os.environ['BITLY_TOKEN']
 
     try:
-        link = args.link
-        parsed_url = urlparse(link)
+        parsed_url = urlparse(args.link)
         bitlink = f'{parsed_url.netloc}{parsed_url.path}'
         if is_bitlink(token, bitlink):
             print('По вашей ссылке прошли:',
                   count_clicks(token, bitlink), 'раз(а)')
 
         else:
-            print('Битлинк', shorten_link(token, link))
+            print('Битлинк', shorten_link(token, args.link))
     except requests.exceptions.HTTPError as errh:
         print(f'HTTP Error: {errh}')
 
